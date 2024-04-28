@@ -1,0 +1,40 @@
+.btn-success
+{
+    border-color: red;
+    border-width: 3;
+    border-radius: 100%;
+}
+
+h3:hover
+{
+    border-radius: 100%;
+    border-width: 10;
+    border-color: red;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 100%;
+}
+
+h3
+{
+    font-size: 25px !important;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+
+canvas:hover
+{
+    image-rendering: optimizeQuality;
+    image-resolution: auto;
+    image-orientation: auto;
+    image-rendering: crisp-edges;
+    border-width: auto;
+}
